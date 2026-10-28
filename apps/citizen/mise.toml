@@ -1,4 +1,4 @@
 monorepo_root = true
 
 [tools]
-java = "24.0.2" # see gradle docs: https://docs.gradle.org/8.14/userguide/compatibility.html
+java = "26.0.2" # see gradle docs: https://docs.gradle.org/9.4.1/userguide/compatibility.html

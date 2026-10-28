@@ -4,10 +4,10 @@ monorepo_root = true
 config_roots = ["apps/citizen"]
 
 [tools]
-bun = "1.4.3"
-node = "26.12.0"
-ruff = "0.17.1"
-uv = "0.13.3"
+bun = "1.4.4"
+node = "26.12.1"
+ruff = "0.17.3"
+uv = "0.13.6"
 
 [env]
 _.path = ["{{config_root}}/node_modules/.bin"]

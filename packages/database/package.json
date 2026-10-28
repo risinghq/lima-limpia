@@ -21,15 +21,15 @@
   },
   "dependencies": {
     "@clack/prompts": "1.8.1",
-    "better-auth": "~1.7.12",
+    "better-auth": "~1.7.14",
     "drizzle-orm": "^0.45.4",
     "pg": "^8.23.1",
     "picocolors": "1.1.1"
   },
   "devDependencies": {
-    "@electric-sql/pglite": "0.5.11",
+    "@electric-sql/pglite": "0.5.13",
     "@paralleldrive/cuid2": "^3.3.0",
-    "@types/bun": "1.4.3",
+    "@types/bun": "1.4.4",
     "@types/pg": "^8.23.1",
     "drizzle-kit": "^0.31.11",
     "typescript": "7.0.2"
