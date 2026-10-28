@@ -42,7 +42,7 @@ polars-runtime-32==2.1.0
 psutil==7.2.2 ; sys_platform != 'android' and sys_platform != 'emscripten'
 pyarrow==26.0.0
 pycparser==3.12 ; implementation_name == 'pypy' and sys_platform != 'emscripten'
-pyee==14.0.0
+pyee==15.0.0
 pygments==2.21.0
 pymdown-extensions==11.0.2
 pyogrio==0.13.0
