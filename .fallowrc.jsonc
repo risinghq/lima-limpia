@@ -22,11 +22,8 @@
     // Expo links these packages natively.
     "expo-dev-client",
     "expo-system-ui",
-    // Loaded by @next/mdx, not imported by application code.
-    "@mdx-js/loader",
-    "@mdx-js/react",
     // Loaded by the email preview and render tools.
-    "@react-email/preview-server",
+    "@react-email/ui",
     "react-dom"
   ],
   "duplicates": {
