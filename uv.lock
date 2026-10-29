@@ -401,7 +401,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "numpy", specifier = ">=2.5.4" },
     { name = "pandas", specifier = ">=3.0.6" },
-    { name = "playwright", specifier = ">=1.64.0" },
+    { name = "playwright", specifier = ">=1.64.1" },
     { name = "plotly", extras = ["express"], specifier = ">=7.1.0" },
     { name = "polars", specifier = ">=2.0.0" },
     { name = "pyarrow", specifier = ">=26.0.0" },
