@@ -1,5 +1,5 @@
 altair==6.3.0
-anyio==4.15.1 ; sys_platform != 'emscripten'
+anyio==4.16.0 ; sys_platform != 'emscripten'
 attrs==26.1.0
 beautifulsoup4==4.15.0
 certifi==2026.10.23
@@ -32,7 +32,7 @@ msgspec==0.22.0
 narwhals==2.28.0
 numpy==2.5.4
 packaging==26.3
-pandas==3.1.0
+pandas==3.1.1
 parso==0.8.7
 pillow==13.0.0
 playwright==1.64.1
@@ -40,7 +40,7 @@ plotly==7.1.0
 polars==2.1.0
 polars-runtime-32==2.1.0
 psutil==7.2.2 ; sys_platform != 'android' and sys_platform != 'emscripten'
-pyarrow==26.0.0
+pyarrow==26.0.1
 pycparser==3.12 ; implementation_name == 'pypy' and sys_platform != 'emscripten'
 pyee==14.0.0
 pygments==2.21.0
@@ -48,20 +48,19 @@ pymdown-extensions==11.0.2
 pyogrio==0.13.0
 pyparsing==3.3.3
 pyproj==3.8.0
-python-dateutil==3.0.0
-python-multipart==0.0.32
+python-dateutil==4.0.0
+python-multipart==0.0.33
 pyyaml==6.0.3
-pyzmq==27.2.0 ; sys_platform != 'emscripten'
+pyzmq==27.3.0 ; sys_platform != 'emscripten'
 referencing==0.37.0
 requests==2.34.2
 rpds-py==2026.9.1
 shapely==2.2.0
-six==1.17.0
-soupsieve==3.0.4
+soupsieve==4.0.1
 starlette==1.10.0 ; sys_platform != 'emscripten'
 tomlkit==0.15.2
 typing-extensions==4.16.0
 tzdata==2026.6
 urllib3==2.8.0
 uvicorn==0.54.0 ; sys_platform != 'emscripten'
-websockets==17.3 ; sys_platform != 'emscripten'
+websockets==17.4 ; sys_platform != 'emscripten'
