@@ -5,7 +5,7 @@ beautifulsoup4==4.15.0
 certifi==2026.10.23
 cffi==2.1.1 ; implementation_name == 'pypy' and sys_platform != 'emscripten'
 charset-normalizer==3.5.2
-click==8.5.0
+click==8.5.1
 click-plugins==1.1.1.2
 cligj==0.7.2
 contourpy==1.4.0
@@ -25,7 +25,7 @@ jsonschema-specifications==2025.9.1
 kiwisolver==1.5.1
 loro==1.17.1 ; python_full_version < '3.15' and sys_platform != 'android' and sys_platform != 'emscripten'
 marimo==0.25.2
-markdown==3.11.2
+markdown==3.11.3
 markupsafe==3.0.4
 matplotlib==3.11.2
 msgspec==0.22.0
@@ -35,14 +35,13 @@ packaging==26.3
 pandas==3.1.1
 parso==0.8.7
 pillow==13.0.0
-playwright==1.64.1
+playwright==1.65.1
 plotly==7.1.0
 polars==2.1.0
 polars-runtime-32==2.1.0
 psutil==7.2.2 ; sys_platform != 'android' and sys_platform != 'emscripten'
 pyarrow==26.0.1
 pycparser==3.12 ; implementation_name == 'pypy' and sys_platform != 'emscripten'
-pyee==16.0.1
 pygments==2.21.0
 pymdown-extensions==11.0.2
 pyogrio==0.13.0
@@ -56,7 +55,7 @@ referencing==0.37.0
 requests==2.34.2
 rpds-py==2026.9.1
 shapely==2.2.0
-soupsieve==4.0.1
+soupsieve==4.1
 starlette==1.10.0 ; sys_platform != 'emscripten'
 tomlkit==0.15.2
 typing-extensions==4.16.0

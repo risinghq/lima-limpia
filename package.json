@@ -7,10 +7,10 @@
     "apps/*"
   ],
   "devDependencies": {
-    "@biomejs/biome": "2.6.5",
+    "@biomejs/biome": "2.6.7",
     "@types/bun": "^1.4.4",
-    "oxfmt": "0.76.0",
-    "oxlint": "1.91.0"
+    "oxfmt": "0.78.0",
+    "oxlint": "1.93.0"
   },
   "resolutions": {
     "@types/react": "19.3.0",
