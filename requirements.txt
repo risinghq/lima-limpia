@@ -43,7 +43,7 @@ psutil==7.2.2 ; sys_platform != 'android' and sys_platform != 'emscripten'
 pyarrow==26.0.1
 pycparser==3.12 ; implementation_name == 'pypy' and sys_platform != 'emscripten'
 pygments==2.21.0
-pymdown-extensions==11.0.2
+pymdown-extensions==13.0
 pyogrio==0.13.0
 pyparsing==3.3.3
 pyproj==3.8.0
