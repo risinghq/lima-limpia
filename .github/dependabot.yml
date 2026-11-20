@@ -3,7 +3,6 @@ updates:
   - package-ecosystem: bun
     directories:
       - /
-      - /packages/database
     schedule:
       interval: weekly
     cooldown:
@@ -13,6 +12,13 @@ updates:
         update-types:
           - minor
           - patch
+    ignore:
+      - dependency-name: java
+      - dependency-name: pymdown-extensions
+      - dependency-name: react
+      - dependency-name: react-dom
+      - dependency-name: react-native-gesture-handler
+      - dependency-name: react-native-svg
 
   - package-ecosystem: uv
     directories:
@@ -26,6 +32,13 @@ updates:
         update-types:
           - minor
           - patch
+    ignore:
+      - dependency-name: java
+      - dependency-name: pymdown-extensions
+      - dependency-name: react
+      - dependency-name: react-dom
+      - dependency-name: react-native-gesture-handler
+      - dependency-name: react-native-svg
 
   - package-ecosystem: github-actions
     directories:
@@ -40,3 +53,10 @@ updates:
           - major
           - minor
           - patch
+    ignore:
+      - dependency-name: java
+      - dependency-name: pymdown-extensions
+      - dependency-name: react
+      - dependency-name: react-dom
+      - dependency-name: react-native-gesture-handler
+      - dependency-name: react-native-svg
